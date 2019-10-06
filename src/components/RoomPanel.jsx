@@ -31,7 +31,7 @@ const CheckboxLabel = styled.div`
 `
 
 const Select = styled.select`
-  width: 32px;
+  width: 36px;
   height: 15px;
   color: black;
   padding-left: 5px;
