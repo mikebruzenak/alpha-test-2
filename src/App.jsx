@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer } from 'react'
+import React, { useReducer } from 'react'
 import styled from "styled-components"
 import RoomPanel from './components/RoomPanel'
 import { rooms, roomsReducer } from './reducers/roomsReducer.jsx'
