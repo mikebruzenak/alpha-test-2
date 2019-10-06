@@ -1,2 +1,8 @@
-NextJS seemed like overkill for this test, localStorage for persistence was sufficient. 
-I decided on a pattern with useReducer and a subform component for clean code. 
+## NextJs:
+I am new to NextJs and had issues with css beingserved intermittently. I included it anyway but the main app is int github.
+
+nextjs: https://codesandbox.io/embed/hello-world-yx241
+
+github: https://github.com/mikebruzenak/alpha-test-2.git
+
+clone, yarn and yarn start.
