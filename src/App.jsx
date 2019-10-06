@@ -18,6 +18,10 @@ const Submit = styled.button`
   border-style: outset;
   width: 50px;
   margin: 0px 30px;
+  cursor: pointer;
+  focus {
+    outline: none;
+  }
 `
 const Form = styled.form`
 display: grid;
@@ -27,7 +31,8 @@ const App = () => {
   let storedRooms = JSON.parse(window.localStorage.getItem('hiltonRooms'))
   const [state, dispatch] = useReducer(roomsReducer, storedRooms || rooms)
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()
     window.localStorage.setItem('hiltonRooms', JSON.stringify(state))
   }
 

@@ -38,13 +38,6 @@ const Select = styled.select`
   font-size: 10px;
   border-top: 1px solid gray;
   margin: 5px 0 0 10px;
-  option {
-    color: black;
-    background: white;
-    display: flex;
-    min-height: 20px;
-    padding: 0px 2px 1px;
-  }
 `
 
 const RoomTitle = styled.div`
